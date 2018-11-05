@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_dark"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Latitude"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Longtitude"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Accuracy"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Altitude"
+                android:textSize="30sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:textSize="30sp">
+
+
+            <TextView
+                android:id="@+id/myLat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="loading"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/myLong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="loading"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/myAccuracy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="loading"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/myAltitude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="loading"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/myAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="loading" />
+
+    </LinearLayout>
+
+</android.widget.LinearLayout>
